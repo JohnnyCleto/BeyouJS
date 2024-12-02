@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_BeYou</title>
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+    <div class="background_img">
+        <form action="index.html" class="formulario"> <!-- O atributo action especifica para onde os dados do formulário serão enviados quando o usuário clicar no botão de login -->
+            <h1>Login</h1>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Digite seu email" name="email" required>
+            <!--
+            placeholder mostra um texto explicativo;
+            name é o identificador para enviar os dados;
+            required indica que o preenchimento é obrigatório;
+            -->
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" placeholder="Digite sua senha" name="psw" required>
+            <div><a href="#" class="esqueci_senha">Esqueci minha senha</a></div>
+            <button formaction="index.html" type="submit" class="botao_login">Entrar</button>
+            <button formaction="cadastrar.html" type="submit" class="botao_cadastrar">Cadastrar</button>
+        </form>
+      </div>
+</body>
+<script src="main.js"></script>
+</html>
+
